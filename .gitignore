@@ -2,4 +2,6 @@
 Locators/__pycache__
 Pages/__pycache__
 Tests/__pycache__
+Config/__pycache__/
+.pytest_cache
 /venv
