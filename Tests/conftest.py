@@ -5,7 +5,6 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))+ '/../' )
 from TestData.TestData import TestData
 from selenium.webdriver.chrome.service import Service
 
-
 @pytest.fixture(scope="session",autouse=True)
 def browser():
     service_obj = Service()
