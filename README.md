@@ -5,14 +5,16 @@ Also, separate page objects based on pages to abstract the interactions with the
 ## Included
 * selenium,
 * pytest
+* pytest-html
 
 ## Required
 * Python 3.12,
 * pytest
+* pytest-html
 
 To run this script from the command line
 
 ```bash
-pytest Tests/ValidateUserIsAbleToLogin.py
+pytest Tests/ValidateUserIsAbleToLogin.py --html=Reports/report.html
 
 ```
