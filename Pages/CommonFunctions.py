@@ -22,3 +22,5 @@ class CommonFunctions:
     def switch_to_iframe(self, iframe_element):
         self.driver.switch_to.frame(iframe_element)
 
+    def switch_to_default_content(self):
+        self.switch_to_default_content(self.driver)
