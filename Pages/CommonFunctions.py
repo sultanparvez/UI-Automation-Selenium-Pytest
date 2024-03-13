@@ -18,3 +18,7 @@ class CommonFunctions:
             self.driver.switch_to.window(self.original_window)
         else:
             raise ValueError("Original window handle is not set.")
+
+    def switch_to_iframe(self, iframe_element):
+        self.driver.switch_to.frame(iframe_element)
+
