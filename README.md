@@ -15,6 +15,6 @@ Also, separate page objects based on pages to abstract the interactions with the
 To run this script from the command line
 
 ```bash
-pytest Tests/ValidateUserIsAbleToLogin.py --html=Reports/report.html
+pytest Tests/ValidateUserIsAbleToLogin.py --html=Reports/E-Commerce_Automation_Report.html
 
 ```
